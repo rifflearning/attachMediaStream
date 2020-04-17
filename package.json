@@ -1,26 +1,36 @@
 {
-  "name": "attachmediastream",
+  "name": "@rifflearning/attachmediastream",
   "version": "2.1.0",
   "description": "cross-browser way to attach a media stream to a video element.",
-  "main": "attachmediastream.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/HenrikJoreteg/attachMediaStream"
-  },
   "keywords": [
     "browser",
     "getUserMedia",
-    "browserify",
     "WebRTC",
     "video"
   ],
-  "author": "Henrik Joreteg <henrik@andyet.net>",
   "license": "MIT",
+  "author": "Henrik Joreteg <henrik@andyet.net>",
+  "homepage": "https://github.com/rifflearning/attachMediaStream#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rifflearning/attachMediaStream"
+  },
+  "upstream": {
+    "type": "git",
+    "url": "https://github.com/HenrikJoreteg/attachMediaStream"
+  },
+  "bugs": {
+    "url": "https://github.com/rifflearning/attachMediaStream/issues"
+  },
+  "main": "attachmediastream.js",
+  "files": [
+    "attachmediastream.js"
+  ],
   "peerDependencies": {
-    "webrtc-adapter": "^6.0.0"
+    "webrtc-adapter": "^6.4.8"
   },
   "devDependencies": {
     "browserify": "2.x",
-    "webrtc-adapter": "^6.0.0"
+    "webrtc-adapter": "^6.4.8"
   }
 }
